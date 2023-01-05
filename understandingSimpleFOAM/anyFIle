@@ -1,0 +1,66 @@
+Info<<"Hello WOrld..."<<endl;
+
+
+
+        // <convection term> - <diffusion term> == - <pressure gradient>
+		// fvm= finite Volume method 
+		// fvc= finte volume calculus 
+		
+		    fvVectorMatrix UEqn
+        (
+            fvm::div(phi,U) - fvm::laplacian(nu,U) == -fvc::grad(p)
+        );
+		
+		UEqn.solve();
+		
+		volScalarField A = UEqn.A();   // It is a diagonal Matrix 
+		volScalarField H = UEqn.H();
+		
+		volScalarField A_inv = 1.0/A;   //It is the inverse of matrix A.
+		
+		volScalarField HbyA = A_inv*H; 
+		
+		surfaceScalarField A_inv_flux= fvc::interpolate(A_inv);
+		
+		fvScalarMatrix pEqn
+        (
+            fvm::laplacian(A_inv_flux, p) == fvc::div(HbyA)
+        );
+		
+		
+		pEqn.solve(); 
+		
+		
+		//Update the U 
+		U = H* A_inv - fvc::grad(p)* A_inv;
+		
+		
+		//Update the pold
+		pold=p;
+
+
+
+
+
+
+  // <convection term> - <diffusion term> == - <pressure gradient>
+		
+		  //FVM => Finite volume Method  => Implicit Method
+		  //FVC => Finite VOlume Calculation => Explicit Method
+		
+	fvVectorMatrix UEqn
+        (
+            fvm::div(phi,U) - fvm::laplacian(nu,U) == -fvc::grad(p)
+        );
+		
+		UEqn.solve();
+		
+		
+		volScalarField H= UEqn.H();
+		
+		volScalarField A= UEqn.A(); //Only have the diagonal elemetns
+		
+		volScalarField A_inv = 1.0/A; 
+		
+		volScalarField HbyA= A_inv*H;
+		
