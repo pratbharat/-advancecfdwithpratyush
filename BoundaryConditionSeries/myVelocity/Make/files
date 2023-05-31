@@ -1,0 +1,3 @@
+myVelocityFvPatchVectorField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libmyVelocity
