@@ -1,0 +1,314 @@
+Table 1
+10
+(
+aeq 5
+aba 2
+aaa 1
+ada 4
+aec 10
+adx 9
+abs 7
+acr 8
+aca 3
+aaw 6
+)
+Table 1
+9
+(
+aeq 5
+aba 2
+aaa 1
+ada 4
+aec 10
+adx 9
+abs 7
+acr 8
+aca 3
+)
+
+table1 toc: 
+8
+(
+aeq
+aba
+aaa
+ada
+aec
+adx
+acr
+aca
+)
+
+
+table1 sortedToc: 
+8
+(
+aaa
+aba
+aca
+acr
+ada
+adx
+aec
+aeq
+)
+
+HashTable<T,Key,Hash> elements:8 slots:6/16 chaining(avg/max):1.33333/2
+table1 [8] 
+aeq => 5
+aba => 2
+aaa => 1
+ada => 4
+aec => 10
+adx => 9
+acr => 8
+aca => 3
+
+overwrote some values table1: 
+9
+(
+aeq 1005
+aba 2
+aaa 1
+ada 4
+aec 100
+adx 109
+acr 108
+aca 3
+aaw -1000
+)
+
+test find:
+1
+2
+3
+4
+1005
+108
+109
+100
+1
+Istream constructor:
+9
+(
+aba 2
+adx 109
+aec 100
+acr 108
+aca 3
+aaw -1000
+aeq 1005
+ada 4
+aaa 1
+)
+
+copy table1 -> table2
+transfer table1 -> table3 via the xfer() method
+
+table1
+0
+(
+)
+
+table2
+9
+(
+aba 2
+aeq 1005
+aaa 1
+ada 4
+aec 100
+adx 109
+aca 3
+acr 108
+aaw -1000
+)
+
+table3
+9
+(
+aeq 1005
+aba 2
+aaa 1
+ada 4
+aec 100
+adx 109
+acr 108
+aca 3
+aaw -1000
+)
+
+erase table2 by iterator
+erasing aba => 2 ... erased
+erasing aeq => 1005 ... erased
+erasing aaa => 1 ... erased
+erasing ada => 4 ... erased
+erasing aec => 100 ... erased
+erasing adx => 109 ... erased
+erasing aca => 3 ... erased
+erasing acr => 108 ... erased
+erasing aaw => -1000 ... erased
+
+table1
+0
+(
+)
+
+table2
+0
+(
+)
+
+table3
+9
+(
+aeq 1005
+aba 2
+aaa 1
+ada 4
+aec 100
+adx 109
+acr 108
+aca 3
+aaw -1000
+)
+
+resize(1) table3
+HashTable<T,Key,Hash> elements:9 slots:7/16 chaining(avg/max):1.28571/2
+
+9
+(
+aeq 1005
+aba 2
+aaa 1
+ada 4
+aec 100
+adx 109
+aca 3
+acr 108
+aaw -1000
+)
+
+resize(10000) table3
+HashTable<T,Key,Hash> elements:9 slots:9/16384 chaining(avg/max):1/1
+
+9
+(
+acr 108
+aec 100
+aaa 1
+ada 4
+adx 109
+aca 3
+aeq 1005
+aaw -1000
+aba 2
+)
+
+copy table3 -> table4 
+9
+(
+aba 2
+adx 109
+aec 100
+acr 108
+aca 3
+aaw -1000
+aeq 1005
+ada 4
+aaa 1
+)
+
+clear table4 ... [0] 
+0
+(
+)
+
+copy table3 -> table1 (previously transferred)
+9
+(
+acr 108
+aec 100
+aaa 1
+ada 4
+adx 109
+aca 3
+aeq 1005
+aaw -1000
+aba 2
+)
+test table1 == table3 : 1
+removed an element - test table1 != table3 : 1
+
+table1
+8
+(
+aec 100
+aaa 1
+ada 4
+adx 109
+aca 3
+aeq 1005
+aaw -1000
+aba 2
+)
+
+table2
+5
+(
+aeq 15
+ada 14
+adx 20
+abs 17
+aaw 16
+)
+
+erase table2 keys from table1 (removed 4 elements)
+
+table1
+4
+(
+aec 100
+aaa 1
+aca 3
+aba 2
+)
+
+table2
+5
+(
+aeq 15
+ada 14
+adx 20
+abs 17
+aaw 16
+)
+
+table3
+9
+(
+acr 108
+aec 100
+aaa 1
+ada 4
+adx 109
+aca 3
+aeq 1005
+aaw -1000
+aba 2
+)
+clearStorage table3 ... 
+0
+(
+)
+
+table1
+4
+(
+acr 8
+aec 10
+aca 3
+aaw 6
+)
+
+Done
