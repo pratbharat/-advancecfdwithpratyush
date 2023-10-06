@@ -49,7 +49,6 @@ Sr. No. | Tutorial | Description |
 | --- | --- | --- | 
 |1.| [Finite Difference Method (Basics, Methodology and MATLAB Coding)](https://www.youtube.com/watch?v=pW4cJ28jnV4&t=16s&ab_channel=AdvanceCFDwithPratyush)|  Learn the Basics of FDM.  Numerical Formulation of 1-D steady state heat conduction in a rod with Heat Generation. Algorithm of FDM. MATLAB Coding (By Abhishek Thakur, Ph.D. IIT Bombay ) | 
 
-
 _Paraview and Python_
 Sr. No. | Tutorial | Description | 
 | --- | --- | --- | 
