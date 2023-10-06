@@ -38,6 +38,30 @@ Sr. No. | Tutorial | Description |
 |7.| [Understanding of pressure based solver for compressible flow (rhoSimpleFOAM); basics to coding](https://www.youtube.com/watch?v=iRw-1eDhTTg&list=PLFzs-gS0NxDqClHll-7ECvCO_8cq4qTTu&index=7&ab_channel=AdvanceCFDwithPratyush)| In this tutorial you will learn about the compressible flow solver i.e. rhoSimpleFoam |
 |8.| [Linux terminal command in details (env, bashrc, pwd, cd,ls) part01](https://www.youtube.com/watch?v=RS2ZAZ8s970&list=PLFzs-gS0NxDqClHll-7ECvCO_8cq4qTTu&index=8&ab_channel=AdvanceCFDwithPratyush)|  in this tutorial you will learn some of the basics linux commands in much details. The topics which are being covered are as follows: env,  What is bashrc and how OF is sourced to your linux?, All environment variables beginning with $FOAM, Different commands related to OF like $FOAM_SRC, $FOAM_TUTORIALS, $FOAM_APP etc. ,  echo, pwd, cd , ls  |
 |9.| [Understanding of SIMPLEC,PISO, PIMPLE (Part 01)](https://www.youtube.com/watch?v=6x14uJH92G4&list=PLFzs-gS0NxDqClHll-7ECvCO_8cq4qTTu&index=9&ab_channel=AdvanceCFDwithPratyush)| What is time-step in simpleFoam? What is relaxation factor and why is it necessary in simpleFoam?  Why can we ignore the contribution of neighboring cells in the velocity corrector step of simpleFoam?  SIMPLE Vs SIMPLEC.  Assumptions, modifications and steps involved to code the SIMPLEC. Coding of SIMPLEC in OpenFoam |
+|10.| [Basics of Methodology, solver and test case (interFoam)](https://www.youtube.com/watch?v=OqfeDa2eHdg&t=699s&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about about: The basics of multiphase solvers. The basic of interFoam solver. Basic of test case |
+|11.| [topoSetDict part 01](https://www.youtube.com/watch?v=2876CECoAek&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about the utility "topoSet". |
+|12.| [topoSetDict part 02](https://www.youtube.com/watch?v=kB1x7zY89aE&t=10s&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about the utility "topoSet". |
+|13.| [Understanding the snappyHexMesh tool of OpenFOAM: Part 01](https://www.youtube.com/watch?v=ODMAks-8GGk&t=682s&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about snappyHexMesh basics. |
+
+
+_CFD Concepts_
+Sr. No. | Tutorial | Description | 
+| --- | --- | --- | 
+|1.| [Finite Difference Method (Basics, Methodology and MATLAB Coding)](https://www.youtube.com/watch?v=pW4cJ28jnV4&t=16s&ab_channel=AdvanceCFDwithPratyush)|  Learn the Basics of FDM.  Numerical Formulation of 1-D steady state heat conduction in a rod with Heat Generation. Algorithm of FDM. MATLAB Coding (By Abhishek Thakur, Ph.D. IIT Bombay ) | 
+
+
+_Paraview and Python_
+Sr. No. | Tutorial | Description | 
+| --- | --- | --- | 
+|1.| [Automation of the Paraview for the post-processing](https://www.youtube.com/watch?v=e6NWXbcHLDY&ab_channel=AdvanceCFDwithPratyush)| Learn how to do automatization of paraview to avoid repetitive tasks   | 
+
+_Miscellaneous_
+Sr. No. | Tutorial | Description | 
+| --- | --- | --- | 
+|1.| [Susruta and Ancient Indian Neurosurgery by Dr. Soumitra Marathe ji (IIT Bombay)](https://www.youtube.com/watch?v=7uYgSUZNurQ&t=691s&ab_channel=AdvanceCFDwithPratyush)| Father of surgery, Sushruta (700-600BC), propagated the Art of surgery at the University of Varanasi. We will discuss how his work holds value from modern-day neurosurgeons perspective. | 
+|2.| [Interaction with Sanat Kumar Prabhu (Director of Rural Development, Govardhan Eco Village)](https://www.youtube.com/watch?v=VbUjE1TfVPw&t=35s&ab_channel=AdvanceCFDwithPratyush)| On March 5th 2023, the students of IIT Bombay visited Govardhan Eco Village. We have interaction with the man, who is behind the success of organic farming, Gurukul and Rural Development Program of Govardhan Eco Village (GEV). Link: https://ecovillage.org.in/ Undoubtedly, GEV should be role model for modern India. With this hope, many IITians have wonderful interaction with Sanat Kumar Prabhu Ji. | 
+
+
 
 
 
