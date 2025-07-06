@@ -1,6 +1,17 @@
 # -advancecfdwithpratyush
 # Go to youtube videos:  [Advance CFD with Pratyush](https://www.youtube.com/@advancecfdwithpratyush7162)
 
+_iteraSim Workshop Sessions_
+
+Sr. No. | Tutorial | Description | 
+| --- | --- | --- | 
+|1.| [OpenFOAM Hands-On Workshop Organized by  PGAC IIT Bombay](https://www.youtube.com/watch?v=u8EQdjeQ_yI&list=PLFzs-gS0NxDqV2YtQRGPocHsQ3sGQ56IN)|  Basics of OpenFOAM, Directory Structure. Run your first test case using OpenFoam (Preprocessing, Simulation, Postprocessing). Basics of meshing inside OpenFoam (blockMeshDict) | 
+|1.| [OpenFOAM Hands-On Workshop Organized by  PGAC IIT Bombay](https://www.youtube.com/watch?v=u8EQdjeQ_yI&list=PLFzs-gS0NxDqV2YtQRGPocHsQ3sGQ56IN)|  Basics of OpenFOAM, Directory Structure. Run your first test case using OpenFoam (Preprocessing, Simulation, Postprocessing). Basics of meshing inside OpenFoam (blockMeshDict) | 
+
+
+
+
+
 
 _Learning C++ Using OpenFOAM environment_
 
@@ -53,6 +64,7 @@ _Paraview and Python_
 Sr. No. | Tutorial | Description | 
 | --- | --- | --- | 
 |1.| [Automation of the Paraview for the post-processing](https://www.youtube.com/watch?v=e6NWXbcHLDY&ab_channel=AdvanceCFDwithPratyush)| Learn how to do automatization of paraview to avoid repetitive tasks   | 
+
 
 _Miscellaneous_
 Sr. No. | Tutorial | Description | 
