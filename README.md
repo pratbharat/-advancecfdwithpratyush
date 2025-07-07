@@ -62,7 +62,7 @@ Sr. No. | Tutorial | Description |
 |14.| [Understanding the Energy Equation in OpenFOAM: Part 01](https://www.youtube.com/watch?v=UlxaoJ951uQ&t=24s)| This video will cover the derivation of the Energy Equation used in OpenFOAM. The first part explores the equation for total energy, combining mechanical and thermal energy using material derivatives.|
 |15.| [Understanding the Energy Equation in OpenFOAM: Part 02](https://www.youtube.com/watch?v=tVCxeeJe89E&t=737s)| This video will cover the derivation of the Energy Equation used in OpenFOAM. The first part explores the equation for total energy, combining mechanical and thermal energy using material derivatives. (Part 02)|
 |16.| [Introduction to Shell Scripting - Part 01: Navigating the Linux Terminal](https://www.youtube.com/watch?v=Goho-0grK4k)| In this first part of our Shell Scripting series, we cover the basics of navigating the Linux terminal using essential commands like ls and cd.|
-[17.] [How to add temperature equation in interFoam?](https://www.youtube.com/watch?v=Ns8CsdabqEY)| In this video, I cover the basics of the multiphase solver interFoam, including coding and how to add a temperature equation.|
+[17.] [How to add temperature equation in interFoam](https://www.youtube.com/watch?v=Ns8CsdabqEY)| In this video, I cover the basics of the multiphase solver interFoam, including coding and how to add a temperature equation.|
 
 _CFD Concepts_
 Sr. No. | Tutorial | Description | 
