@@ -6,7 +6,13 @@ _iteraSim Workshop Sessions_
 Sr. No. | Tutorial | Description | 
 | --- | --- | --- | 
 |1.| [OpenFOAM Hands-On Workshop Organized by  PGAC IIT Bombay](https://www.youtube.com/watch?v=u8EQdjeQ_yI&list=PLFzs-gS0NxDqV2YtQRGPocHsQ3sGQ56IN)|  Basics of OpenFOAM, Directory Structure. Run your first test case using OpenFoam (Preprocessing, Simulation, Postprocessing). Basics of meshing inside OpenFoam (blockMeshDict) | 
-|1.| [OpenFOAM Hands-On Workshop Organized by  PGAC IIT Bombay](https://www.youtube.com/watch?v=u8EQdjeQ_yI&list=PLFzs-gS0NxDqV2YtQRGPocHsQ3sGQ56IN)|  Basics of OpenFOAM, Directory Structure. Run your first test case using OpenFoam (Preprocessing, Simulation, Postprocessing). Basics of meshing inside OpenFoam (blockMeshDict) | 
+|3.| [OpenFOAM Hands-on Workshop at IIT Bombay – March 22, 2025](https://www.youtube.com/watch?v=xtVlxDe8Ueo&t=601s)|  The Mechanical Engineering Association (MEA) at IIT Bombay is organizing a hands-on workshop on OpenFOAM on March 22, 2025. | 
+|4.| [ANSYS Hands-on Workshop using Introduction to Finite Element Analysis (FEA)  at IIT Bombay](https://www.youtube.com/watch?v=lgYVsy2RP8g&list=PLFzs-gS0NxDowZzqLoSRiTwNg1ev9rJM8)|  Welcome to this comprehensive introduction to Finite Element Analysis (FEA)! In this video, we cover the fundamental concepts, step-by-step finite element procedures, and essential finite element formulations required for structural analysis. | 
+|5.| [Orientation Class for the 40 Hrs OpenFOAM comprehensive class](https://www.youtube.com/watch?v=2l4_RC_25iM&t=549s)|  The pre-recorded session of this 40 Hours hands-on session is currently being sold at the price of Rs. 8000 INR. For more details, mail us at iterasim@gmail.com| 
+|6.| [Session 01: Orientation | CFD-ML Global Workshop (29-06-2025)](https://www.youtube.com/watch?v=xtVlxDe8Ueo&t=601s)|  In the inaugural session of the CFD-ML Global Workshop, we conducted an orientation to set the stage for the upcoming journey into the fusion of Computational Fluid Dynamics (CFD) and Machine Learning (ML). | 
+|7.| [Session 02: Hands-on with simpleFoam — From Fundamentals to Custom Coding (Bonus Session)](https://www.youtube.com/watch?v=NizIeEzv8f0&t=885s)|  In this hands-on session, participants will dive deep into the widely used simpleFoam solver — the steady-state, incompressible flow solver in OpenFOAM. | 
+
+
 
 
 
@@ -53,7 +59,10 @@ Sr. No. | Tutorial | Description |
 |11.| [topoSetDict part 01](https://www.youtube.com/watch?v=2876CECoAek&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about the utility "topoSet". |
 |12.| [topoSetDict part 02](https://www.youtube.com/watch?v=kB1x7zY89aE&t=10s&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about the utility "topoSet". |
 |13.| [Understanding the snappyHexMesh tool of OpenFOAM: Part 01](https://www.youtube.com/watch?v=ODMAks-8GGk&t=682s&ab_channel=AdvanceCFDwithPratyush)| In this tutorial, you will learn about snappyHexMesh basics. |
-
+|14.| [Understanding the Energy Equation in OpenFOAM: Part 01](https://www.youtube.com/watch?v=UlxaoJ951uQ&t=24s)| This video will cover the derivation of the Energy Equation used in OpenFOAM. The first part explores the equation for total energy, combining mechanical and thermal energy using material derivatives.|
+|15.| [Understanding the Energy Equation in OpenFOAM: Part 02](https://www.youtube.com/watch?v=tVCxeeJe89E&t=737s)| This video will cover the derivation of the Energy Equation used in OpenFOAM. The first part explores the equation for total energy, combining mechanical and thermal energy using material derivatives. (Part 02)|
+|16.| [Introduction to Shell Scripting - Part 01: Navigating the Linux Terminal](https://www.youtube.com/watch?v=Goho-0grK4k)| In this first part of our Shell Scripting series, we cover the basics of navigating the Linux terminal using essential commands like ls and cd.|
+[17.] [How to add temperature equation in interFoam?](https://www.youtube.com/watch?v=Ns8CsdabqEY)| In this video, I cover the basics of the multiphase solver interFoam, including coding and how to add a temperature equation.|
 
 _CFD Concepts_
 Sr. No. | Tutorial | Description | 
