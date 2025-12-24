@@ -1,5 +1,0 @@
-Exercises: 
-1. Print "Hello World from OpenFOAM".
-2. Create function "reynolds" with type scalar which askes for velocity, density, char_dimensions and viscosity and calculate the Reynolds Number.
-3. Create a function "Pressure_cal" named  using template  ; which takes viscosity, flow rate, Length, diameter and calculate the pressure P= 128*mu*Q*L/pi*d^4
-4. Also go through the string solver provided and try to implemented step by step. 
